@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+
+    <div class="converter">
+        <div class="input-group">
+            <input type="number" id="amount" placeholder="Enter amount" />
+            <select id="fromCurrency">
+                <option>RON</option>
+                <option>EUR</option>
+                <option>USD</option>
+                <option>HUF</option>
+                <option>BWP</option>
+            </select>
+        </div>
+        <div><strong>To</strong></div>
+        <div class="input-group">
+            <select id="toCurrency">
+                <option>EUR</option>
+                <option>RON</option>
+                <option>USD</option>
+                <option>HUF</option>
+                <option>BWP</option>
+            </select>
+            <input type="text" id="result" placeholder="Result" disabled />
+        </div>
+        <button id="convert">Convert</button>
+        <button id="swap">Swap</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
