@@ -24,8 +24,26 @@ rgba(0, 0, 0, 0.1);
     margin: 10px 0;
 }
 
-input[type='number'],
-input[type='text'],
+#amount,
+#result {
+    padding: 10px;
+    width: 92.5%;
+    border: 1px solid 
+#ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+}
+
+#amount {
+    margin-bottom: 5px;
+}
+
+#result {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 select,
 button {
     padding: 10px;

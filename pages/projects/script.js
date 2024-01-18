@@ -39,6 +39,12 @@ function swapCurrencies() {
 
     document.getElementById('fromCurrency').value = toCurrency;
     document.getElementById('toCurrency').value = fromCurrency;
+
+    let amount = document.getElementById('amount').value;
+    let result = document.getElementById('result').value;
+
+    document.getElementById('result').value = amount;
+    document.getElementById('amount').value = result;
 }
 
 // Add event listeners
